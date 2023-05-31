@@ -1,9 +1,12 @@
 import './App.css';
+import '@emotion/react';
+import FormModal from './layouts/FormModal';
+
 
 function App() {
   return (
     <div>
-      <h1 className='text-yellow-500  bg-t-blue-color text-5xl '>G</h1>
+      <FormModal />
     </div>
   );
 }
