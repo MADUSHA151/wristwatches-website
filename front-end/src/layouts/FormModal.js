@@ -8,7 +8,7 @@ const style = {
      top: '50%',
      left: '50%',
      transform: 'translate(-50%, -50%)',
-     width: 400,
+     width: 500,
      bgcolor: '#242C32',
      border: '2px solid #0071FF',
      boxShadow: 24,
@@ -23,6 +23,8 @@ function FormModal() {
      const handleClose = () => setOpen(false);
 
      return (
+          
+          
           <div>
                <Button onClick={handleOpen}>Open modal</Button>
                <Modal
@@ -31,6 +33,7 @@ function FormModal() {
                >
                     <Box sx={style}>
                          <SignUp />
+                         {/* <SignIn /> */}
                     </Box>
                </Modal>
           </div>

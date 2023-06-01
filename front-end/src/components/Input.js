@@ -16,11 +16,11 @@ const CustomTextField = styled(TextField)(({ theme }) => ({
 
 
 
-function Input({ label, id, size, type = "text", variant, placeholder ,inputMode,pattern  }) {
+function Input({ label, id, size, type = "text", variant, placeholder, inputMode, pattern, sx }) {
      return (
 
           <div>
-               <CustomTextField placeholder={placeholder} label={label} id={id} size={size} type={type} variant={variant} inputMode={inputMode} pattern={pattern} />
+               <CustomTextField placeholder={placeholder} label={label} id={id} size={size} type={type} variant={variant} inputMode={inputMode} pattern={pattern} sx={sx} />
           </div>
 
      );

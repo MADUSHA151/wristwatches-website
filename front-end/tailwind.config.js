@@ -19,7 +19,8 @@ module.exports = {
         "blue-blur-color": "#696E72",
         "white-color": "#FFFFFF",
         "font-green-color": "#11A34B",
-        "f-red-color": "#9B1515"
+        "f-red-color": "#9B1515",
+        "t-watch-color": "#ADAEB0",
       },
       spacing: {
         px: '1px',
