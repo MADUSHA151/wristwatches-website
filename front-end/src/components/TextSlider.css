@@ -1,0 +1,22 @@
+.textSlider {
+  font-size: 18px;
+  color: #dad1d1;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 40px 60px;
+  background-color:transparent;
+}
+.textSlider .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.textSlider .subtitle {
+  font-size: 21px;
+}
+
+.textSlider .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}

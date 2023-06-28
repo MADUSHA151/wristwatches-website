@@ -1,0 +1,16 @@
+.swiperRotate {
+     width: 400px!important;
+     height:400px!important;
+   }
+   
+   .sliderBox {
+     background-position: center;
+     background-size: cover;
+     background-color: transparent;     
+   }
+   
+   .sliderBox img {
+     display: block;
+     width: 100%;
+     object-fit: cover;
+   } 

@@ -21,6 +21,7 @@ module.exports = {
         "font-green-color": "#11A34B",
         "f-red-color": "#9B1515",
         "t-watch-color": "#ADAEB0",
+        "text-button-color": "#0071FF",
       },
       spacing: {
         px: '1px',
@@ -62,7 +63,7 @@ module.exports = {
     },
   },
   plugins: [
-    require('flowbite/plugin')
+     require('flowbite/plugin')
   ],
 }
 

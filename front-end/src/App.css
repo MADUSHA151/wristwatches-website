@@ -1,4 +1,8 @@
-*{
+* {
      font-family: 'Coustard', serif;
-    
+
+}
+
+body {
+     background: linear-gradient(90deg, #1F1F1F 34.1%, #0B0B0C 62.35%, #09090B 89.83%);
 }

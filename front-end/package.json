@@ -13,17 +13,21 @@
     "@mui/joy": "^5.0.0-alpha.82",
     "@mui/material": "^5.13.3",
     "@mui/styled-engine-sc": "^5.12.0",
+    "@splidejs/react-splide": "^0.7.12",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "babel-plugin-macros": "^3.1.0",
     "flowbite": "^1.6.5",
     "flowbite-react": "^0.4.6",
+    "fs-extra": "^11.1.1",
+    "path-browserify": "^1.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-image-picker-v2": "^1.1.4",
-    "react-scripts": "5.0.1",
     "styled-components": "^5.3.11",
+    "swiper": "^9.3.2",
+    "utils": "^0.2.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -51,6 +55,8 @@
     ]
   },
   "devDependencies": {
+    "eslint-config-react-app": "^7.0.1",
+    "react-scripts": "^5.0.1",
     "tailwindcss": "^3.3.2"
   }
 }
