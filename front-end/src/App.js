@@ -6,6 +6,8 @@ import Slider from './components/Slider';
 import RotatingBox from './components/RotatingBox';
 import TextSliderSwiper from './components/TextSlider';
 import Card from './components/Card';
+import ProductCollectionSlider from './components/ProductViewers';
+
 
 
 
@@ -17,7 +19,9 @@ function App() {
       <Slider/>
       <RotatingBox/>
       <TextSliderSwiper/> */}
-      <Card/>
+      {/* <Card/> */}
+      <ProductCollectionSlider/>
+      
     </div>
   );
 }
