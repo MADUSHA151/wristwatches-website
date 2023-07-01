@@ -22,6 +22,7 @@ module.exports = {
         "f-red-color": "#9B1515",
         "t-watch-color": "#ADAEB0",
         "text-button-color": "#0071FF",
+        "large-blue":"#3C4159"
       },
       spacing: {
         px: '1px',

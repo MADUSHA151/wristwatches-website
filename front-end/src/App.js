@@ -7,6 +7,9 @@ import RotatingBox from './components/RotatingBox';
 import TextSliderSwiper from './components/TextSlider';
 import Card from './components/Card';
 import ProductCollectionSlider from './components/ProductViewers';
+import AboutUs from './layouts/AboutUs';
+import Contact from './layouts/ContactUs';
+import Footer from './layouts/Footer';
 
 
 
@@ -14,14 +17,16 @@ import ProductCollectionSlider from './components/ProductViewers';
 function App() {
   return (
     <div>
-      {/* <FormModal /> */}
-      {/* <Navigation/>
-      <Slider/>
-      <RotatingBox/>
-      <TextSliderSwiper/> */}
-      {/* <Card/> */}
-      <ProductCollectionSlider/>
-      
+      {/* <FormModal /> 
+      <Navigation />
+      <Slider />
+      <RotatingBox />
+      <TextSliderSwiper />
+      <ProductCollectionSlider />
+      <AboutUs/> */}
+      {/* <Contact/> */}
+      <Footer/>
+
     </div>
   );
 }
