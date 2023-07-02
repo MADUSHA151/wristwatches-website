@@ -5,4 +5,27 @@
 
 body {
      background: linear-gradient(90deg, #1F1F1F 34.1%, #0B0B0C 62.35%, #09090B 89.83%);
+     min-height: 92vh;
+}
+
+
+/* Set the width and height of the scrollbar */
+::-webkit-scrollbar {
+     width: 10px;
+     height: 10px;
+}
+
+/* Set the background color of the scrollbar track */
+::-webkit-scrollbar-track {
+     background-color: #13171C;
+}
+
+/* Set the background color of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+     background-color: #3C4159;
+}
+
+/* Set the border radius of the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+     border-radius: 5px;
 }

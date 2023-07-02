@@ -13,6 +13,7 @@ module.exports = {
         "side-bar-navigation": "#242C32",
         "button-color": "#0071FF",
         "input-color": "#ADAEB0",
+        "font-green-color-bg": "#11A34B",
       },
       colors: {
         "star-color": "#F8D711",

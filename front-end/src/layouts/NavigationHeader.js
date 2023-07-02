@@ -8,7 +8,7 @@ import AppsMenu from "../components/AppsMenu";
 function NavigationHeader() {
 
      return (
-          <header className="drop-shadow-2xl">
+          <header className="drop-shadow-2xl w-full min-h-min ">
                <div className="bg-black text-center text-white-color flex flex-row justify-between py-3 sm:py-1">
                     <div className="flex flex-row items-center justify-center pl-8">
                          <label className="text-center hidden sm:block">The best wrist watch In the World</label>

@@ -19,7 +19,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import "./styles.css";
+import "./SliderStyles.css";
 
 
 // import required modules
@@ -36,7 +36,7 @@ function Slider() {
      };
 
      return (
-          <div className="relative">
+          <div className="relative" style={{ width: "100%", height: "60vh" }}>
                <div className="absolute z-10 sm:ps-16 ps-8 sm:pt-8 pt-16  space-y-3">
                     <p className="text-t-watch-color tracking-widest sm:text-5xl font-bold ">CUSTOM WATCHES FOR <br /> ANY OCCASION</p>
                     <div className="space-x-2 sm:space-x-5">

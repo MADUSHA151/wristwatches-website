@@ -17,7 +17,7 @@ import img4 from "../assets/brand/textsliderWatch_4.png";
 function Footer() {
      return (
           <footer>
-               <div className="flex flex-col items-center gap-4 bg-g-theme-color pt-3">
+               <div className="flex flex-col items-center gap-4 bg-g-theme-color pt-3 hover:cursor-pointer">
                     <div className="text-t-watch-color">
                          <h1 className="text-4xl">G ZWAT</h1>
                     </div>

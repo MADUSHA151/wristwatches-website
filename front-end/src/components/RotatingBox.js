@@ -17,7 +17,7 @@ import { EffectCube, Pagination, Autoplay } from "swiper";
 
 function RotatingBox() {
      return (
-          <div>
+          <div className="sm:w-1/2 sm:h-2/3">
                <Swiper
                     effect={"cube"}
                     grabCursor={true}

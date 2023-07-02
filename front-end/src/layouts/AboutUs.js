@@ -3,7 +3,7 @@ import avatar from '../assets/avatar/userImage_1.jpg';
 
 function AboutUs() {
      return (
-          <div className='flex flex-col items-center p-5 gap-6 bg-side-bar-navigation' style={{ width: "100%", height: "60vh" }}>
+          <div className='flex flex-col items-center p-5 justify-center gap-6 bg-side-bar-navigation' style={{ width: "100%",height:"60vh" }}>
                <div className='text-t-watch-color'>
                     <h1 className='text-3xl sm:text-6xl'>About Us</h1>
                </div>

@@ -12,7 +12,7 @@ import Card from "./Card";
 
 function ProductCollectionSlider() {
      return (
-          <div className="bg-g-theme-color text-t-watch-color " style={{ width: "100%", height: "60vh" }}>
+          <div className="bg-g-theme-color text-t-watch-color  " style={{ width: "100%", minHeight:"60%" }}>
                <div className="flex justify-between sm:text-3xl p-4">
                     <a href="#">Collection</a>
                     <a href="#">All Product</a>

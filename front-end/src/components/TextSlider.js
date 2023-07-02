@@ -11,7 +11,7 @@ import { Parallax, Pagination, Navigation ,Autoplay} from "swiper";
 
 function TextSliderSwiper() {
      return (
-          <div>
+          <div className="sm:w-3/5 w-2/4">
                <Swiper
                     speed={600}
                     parallax={true}
